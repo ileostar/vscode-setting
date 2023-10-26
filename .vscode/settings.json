@@ -5,12 +5,11 @@
   "workbench.editor.tabCloseButton": "left",
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.list.smoothScrolling": true,
-  "workbench.productIconTheme": "Default",
+  "workbench.productIconTheme": "macos-modern",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
-  "editor.fontFamily": "Input Mono, Fira Code, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
 
   // Editor
@@ -166,7 +165,18 @@
       "severity": "off"
     }
   ],
-  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
 
   // CSpell config: https://github.com/cspell/cspell
   "cSpell.allowCompoundWords": true,
