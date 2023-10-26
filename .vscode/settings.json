@@ -3,7 +3,6 @@
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Dracula",
   "workbench.editor.tabCloseButton": "left",
-  "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "Default",
@@ -15,6 +14,8 @@
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
 
   // Editor
+  "editor.fontSize": 20,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
@@ -35,7 +36,6 @@
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
   "window.nativeTabs": true, // this is great, macOS only
@@ -52,7 +52,6 @@
   "files.simpleDialog.enable": true,
   "git.autofetch": true,
   "git.confirmSync": false,
-  "git.enableSmartCommit": true,
   "git.untrackedChanges": "separate",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
@@ -80,12 +79,81 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "ejs": "html",
+    "editor.formatOnType": "true",
+    "edito.formatOnSave": "true",
+    "wxml": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 2
+    }
+  },
+  "git.enableSmartCommit": true,
+  "cssrem.rootFontSize": 37.5,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
 
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+  "html.format.unformatted": "wbr,%",
+  "settingsSync.ignoredExtensions": [],
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "editor.mouseWheelZoom": true,
+  "redhat.telemetry.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[vue]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.format.enable": true,
+  "vs-code-prettier-eslint.prettierLast": true,
+  "prettier.eslintIntegration": true,
+  "leetcode.endpoint": "leetcode-cn",
+  "editor.wordWrap": "on",
+  "vscode-edge-devtools.webhint": false,
+  "http.proxyAuthorization": null,
+  "json.format.enable": false,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.CustomBrowser": "microsoft-edge",
+
+  // Stylus configs
+  "stylusSupremacy.insertColons": true, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
+  "html.format.templating": true, // 支持模板化标记语言
+  "editor.formatOnSave": true, // 保存时自动格式化
+  "files.associations": {
+    "*.ejs": "html",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+
+  // codeium config
+  "codeium.enableConfig": {
+    "*": true,
+    "typescript": false,
+    "vue": false
+  },
 
   // ESLint config: https://github.com/antfu/eslint-config
   "eslint.codeAction.showDocumentation": {
@@ -100,14 +168,55 @@
   ],
   "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
 
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false,
-    "yaml": false
-  },
+  // CSpell config: https://github.com/cspell/cspell
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
+  "cSpell.userWords": [
+    "aashutoshrathi",
+    "alova",
+    "antfu",
+    "Attributify",
+    "AXIOS",
+    "bumpp",
+    "CICD",
+    "codeium",
+    "commitlint",
+    "composables",
+    "consola",
+    "degit",
+    "dribbble",
+    "echarts",
+    "fenge",
+    "hclab",
+    "hypernym",
+    "iconify",
+    "ileostar",
+    "leostar",
+    "minesweepr",
+    "myenv",
+    "nuxi",
+    "nuxt",
+    "nuxtjs",
+    "OFFICICAL",
+    "outfile",
+    "Partrait",
+    "Performane",
+    "Persistedstate",
+    "pinia",
+    "precache",
+    "requset",
+    "stylelint",
+    "taggle",
+    "taze",
+    "typecheck",
+    "unocss",
+    "unplugin",
+    "utoken",
+    "Vite",
+    "vitepress",
+    "Vitest",
+    "vueuse"
+  ],
   "css.lint.hexColorLength": "ignore",
   "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
   "githubPullRequests.fileListLayout": "tree",
@@ -163,12 +272,6 @@
   "iconify.annotations": true,
   "iconify.inplace": true,
   "svg.preview.mode": "svg",
-
-  // I only use Prettier for manually formatting
-  "prettier.enable": false,
-  "prettier.printWidth": 200,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
 
   // File Nesting
   // this might not be up to date with the repo, please check yourself
