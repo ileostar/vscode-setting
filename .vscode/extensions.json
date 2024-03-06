@@ -40,6 +40,12 @@
     "svipas.prettier-plus",
     "esbenp.prettier-vscode",
     "rvest.vs-code-prettier-eslint",
-    "zaczero.bootstrap-v4-snippets"
+    "zaczero.bootstrap-v4-snippets",
+    "github.copilot",
+    "github.copilot-chat",
+    "gitpod.gitpod-desktop",
+    "wallabyjs.quokka-vscode",
+    "stylelint.vscode-stylelint",
+    "think2011.vue-i18n"
   ]
 }
