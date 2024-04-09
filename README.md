@@ -9,7 +9,7 @@
 <p align="center"><samp>Preview</samp></p>
 
 <p align="center">
-<img src="./public/image.png">
+<img src="./public/img.png">
 </p>
 
 <br>
