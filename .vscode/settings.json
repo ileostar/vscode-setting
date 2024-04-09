@@ -3,7 +3,6 @@
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.sideBar.location": "right",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
 
@@ -353,8 +352,11 @@
     "vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, capacitor.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, i18n.config.*, ionic.config.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, panda.config.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, vuetify.config.*, webpack.config.*, windi.config.*",
     "vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, capacitor.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, i18n.config.*, ionic.config.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, panda.config.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, vuetify.config.*, webpack.config.*, windi.config.*"
   },
+  "nuxt.isNuxtApp": false,
   "editor.cursorBlinking": "smooth",
+  "leetcode-problem-rating.workspaceFolder": "e:\\LeoStar-Road\\algorithm\\packages\\leetcode-algorithm",
   "workbench.startupEditor": "none",
+  "typeChallenges.workspaceFolder": "e:\\LeoStar-Road\\challenges\\type",
   "leetcode-problem-rating.defaultLanguage": "typescript",
   "leetcode-problem-rating.hint.configWebviewMarkdown": false,
 
@@ -368,6 +370,7 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
   "playwright.reuseBrowser": false,
   "git.ignoreRebaseWarning": true,
   "workbench.editor.tabActionLocation": "left",
@@ -382,5 +385,18 @@
   "powermode.enabled": true,
   "powermode.combo.counterEnabled": "hide",
   "powermode.combo.timerEnabled": "hide",
-  "powermode.shake.enabled": false
+  "powermode.shake.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.sideBar.location": "right",
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "autoHide.panelDelay": 2000,
+  "autoHide.sideBarDelay": 1000,
+  "autoHide.autoHideSideBar": false
 }
