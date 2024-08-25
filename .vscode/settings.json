@@ -396,7 +396,4 @@
   "window.menuBarVisibility": "compact",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
-  "autoHide.panelDelay": 2000,
-  "autoHide.sideBarDelay": 1000,
-  "autoHide.autoHideSideBar": false
 }
