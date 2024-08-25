@@ -93,6 +93,7 @@
     "mqycn.huile8",
     "uni-helper.uni-helper-vscode",
     "vue.volar",
-    "vitest.explorer"
+    "vitest.explorer",
+    "esbenp.prettier-vscode"
   ]
 }
