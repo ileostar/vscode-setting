@@ -19,7 +19,6 @@
     "unional.vscode-sort-package-json",
     "codeium.codeium",
     "formulahendry.auto-rename-tag",
-    "dracula-theme.theme-dracula",
     "ritwickdey.liveserver",
     "emmanuelbeziat.vscode-great-icons",
     "github.copilot",
@@ -94,6 +93,7 @@
     "uni-helper.uni-helper-vscode",
     "vue.volar",
     "vitest.explorer",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "shaobeichen.gradient-theme"
   ]
 }
